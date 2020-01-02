@@ -9,5 +9,5 @@ docker-compose up
 > In a new terminal
 
 ```
-cd aggregation && docker build -t insights . && docker run insights
+cd aggregate && docker build -t insights . && docker run insights
 ```
