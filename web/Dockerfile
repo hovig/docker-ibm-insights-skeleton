@@ -5,5 +5,5 @@ WORKDIR /opt/app
 COPY package.json ./
 RUN  npm install
 COPY . .
-EXPOSE 5100
+EXPOSE 5000
 CMD ["node", "app"]
